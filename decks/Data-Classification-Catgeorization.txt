@@ -1,0 +1,43 @@
+Title Slide: Data-Classification-Catgeorization
+
+Slide 1 — Title
+- Title: Data-Classification-Catgeorization — POC: Automated Data Labelling & Categorization
+- Subtitle: Use AI to label datasets and turn into training-ready corpora
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Introduce the product: automated labeling workflows to convert raw datasets into classified datasets using rule-based + model-assisted labeling.
+
+Slide 2 — Problem
+- Manual labeling is slow and inconsistent.
+- Projects need high-quality annotated data for downstream ML tasks.
+
+Speaker notes:
+Discuss the cost/time impact of manual labeling.
+
+Slide 3 — Solution
+- Agent automates label suggestions using model prompts and repository-guided heuristics.
+- Provide export to CSV/TFRecords for ML training.
+
+Speaker notes:
+Describe how the agent can open files, suggest labels, and create training artifacts.
+
+Slide 4 — Demo Highlights
+- CLI and FastAPI demo for querying label suggestions
+- Local fallback and test suite
+
+Speaker notes:
+Point to add-llm-integrations branch and files.
+
+Slide 5 — Architecture
+- LangChain agent + labeling tools → batch labeling → training-ready exports
+
+Speaker notes:
+Explain components and vector DB integration possibilities.
+
+Slide 6 — Next Steps & CTA
+- Integrate human-in-the-loop review UI
+- Add metrics and active learning loops
+
+Speaker notes:
+Ask for feedback and potential pilot datasets.

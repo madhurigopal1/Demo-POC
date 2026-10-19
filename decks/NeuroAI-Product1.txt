@@ -1,0 +1,39 @@
+Title Slide: NeuroAI-Product1
+
+Slide 1 — Title
+- Title: NeuroAI-Product1 — POC: Neural Product for AI Workflows
+- Subtitle: Prototype models and orchestration for NeuroAI product ideas
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Describe the POC: model prototypes, notebooks, and agent integrations for experimenting with neural algorithms.
+
+Slide 2 — Problem
+- Research-to-product gaps slow down prototyping and evaluation
+
+Speaker notes:
+Explain friction.
+
+Slide 3 — Solution
+- Provide standardized experiments, small model artifacts, and agent tooling for reproducibility.
+
+Speaker notes:
+Explain reproducibility benefits.
+
+Slide 4 — Demo Highlights
+- Notebooks, evaluation scripts, agent wrappers
+
+Speaker notes:
+Where to find demos in branch.
+
+Slide 5 — Architecture
+- Experiment orchestration → model artifacts → evaluation dashboards
+
+Speaker notes:
+Discuss storage and CI.
+
+Slide 6 — Next Steps & CTA
+- Add tracking, model registries, and deployment templates
+
+Speaker notes:
+Solicit collaboration.

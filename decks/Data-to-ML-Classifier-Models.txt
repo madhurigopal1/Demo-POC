@@ -1,0 +1,41 @@
+Title Slide: Data-to-ML-Classifier-Models
+
+Slide 1 — Title
+- Title: Data-to-ML-Classifier-Models — POC: Rapid Model Prototyping
+- Subtitle: Turn cleaned datasets into quick classifier prototypes
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Summarize the POC: automated pipelines from CSV/JSON datasets to scikit-learn/PyTorch prototype models with evaluation reports.
+
+Slide 2 — Problem
+- Building baseline models requires repetitive data preprocessing and tuning.
+
+Speaker notes:
+Explain dev-time costs.
+
+Slide 3 — Solution
+- Agent orchestrates data cleaning, feature extraction, model training, and evaluation.
+- Provide template notebooks and exportable models.
+
+Speaker notes:
+Explain the pipeline and how agents kick off jobs.
+
+Slide 4 — Demo Highlights
+- Example training notebook in add-llm-integrations branch
+- Generated evaluation reports
+
+Speaker notes:
+Show where to run the demo and what to expect.
+
+Slide 5 — Architecture
+- Agent triggers training tasks, stores artifacts, and generates reports
+
+Speaker notes:
+Describe storage suggestions (S3, local) and CI automation.
+
+Slide 6 — Next Steps & CTA
+- Add hyperparameter tuning and AutoML hooks
+
+Speaker notes:
+Request datasets to pilot.

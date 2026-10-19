@@ -1,0 +1,40 @@
+Title Slide: Data-Mapping
+
+Slide 1 — Title
+- Title: Data-Mapping — POC: Transform & Map Data Pipelines
+- Subtitle: Automate ETL mapping and validation
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Introduce the project: mapping raw inputs to canonical schemas and validating transformations.
+
+Slide 2 — Problem
+- Data mapping across systems is error-prone and labor-intensive.
+
+Speaker notes:
+Explain pain points.
+
+Slide 3 — Solution
+- Provide agentic tools for mapping rules, generating code, and validating transformations.
+
+Speaker notes:
+Explain the code generation and validation.
+
+Slide 4 — Demo Highlights
+- Example mapping scripts
+- FastAPI-based validator for sample input
+
+Speaker notes:
+Point to added files in branch.
+
+Slide 5 — Architecture
+- Agent suggests mappings → tests validate → outputs transformation code
+
+Speaker notes:
+Explain where vector stores or schemas fit.
+
+Slide 6 — Next Steps & CTA
+- Add UI for mapping review and bulk import/export
+
+Speaker notes:
+Ask for feedback and samples.

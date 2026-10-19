@@ -1,0 +1,46 @@
+Title Slide: Code-to-Visualizer
+
+Slide 1 — Title
+- Title: Code-to-Visualizer — POC: Interactive AI-driven Visualization
+- Subtitle: Convert NLP/semantic models into interactive, shareable visualizations
+- Author: madhurigopal1
+
+Speaker notes:  (20-30s)  
+Introduce the product: the Code-to-Visualizer POC transforms NLP model outputs and semantic similarity results into interactive visualizations. This POC demonstrates how an agent (LangChain) can index repository artifacts and serve interactive HTML visualizations via a small FastAPI demo.
+
+Slide 2 — Problem
+- Teams have valuable NLP models and semantic datasets but lack quick ways to interpret and explore embeddings and similarities.
+- Non-technical users need a simple, interactive view to inspect model outputs.
+
+Speaker notes:
+Explain pain points: difficulty exploring embeddings, lack of standard visualization UX, time to build dashboards.
+
+Slide 3 — Solution
+- Provide a lightweight agent integration that can load repo artifacts and run code_search queries.
+- Render visualizations (t-SNE/UMAP/graph) in interactive HTML.
+
+Speaker notes:
+Outline the solution and how the agent loads code, extracts embeddings, and produces interactive HTML visualization.
+
+Slide 4 — Demo Highlights
+- agent/server.py exposing an /ask endpoint
+- Interactive HTML demo page
+- Quick code_search based fallback for offline demos
+
+Speaker notes:
+Demonstrate where to find the demo in the add-llm-integrations branch.
+
+Slide 5 — Architecture
+- LangChain agent → code_search tool → LLM → Visualization renderer (HTML/JS)
+- FastAPI demo front-end calls agent
+
+Speaker notes:
+Walk through the architecture diagram conceptually.
+
+Slide 6 — Next Steps & CTA
+- Improve agent tools: add file-level embeddings, vector DBs (FAISS), and more guarded execution.
+- Integrate with hosting and CI pipelines for continuous demos.
+
+Speaker notes:
+Call to action: try the demo, provide feedback, suggest integrations.
+

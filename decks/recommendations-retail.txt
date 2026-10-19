@@ -1,0 +1,41 @@
+Title Slide: recommendations-retail
+
+Slide 1 — Title
+- Title: recommendations-retail — POC: Retail Item Recommendations
+- Subtitle: Prototype collaborative & content-based recommenders
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Introduce the POC: product recommendation models for retail datasets and a simple demo to query recommendations.
+
+Slide 2 — Problem
+- Retail systems need accurate and fast recommendations to boost sales.
+
+Speaker notes:
+Explain business impact.
+
+Slide 3 — Solution
+- Baseline collaborative filtering + embedding-based content recommenders.
+- Use LangChain agent to orchestrate model queries and demo endpoints.
+
+Speaker notes:
+Explain recommender components.
+
+Slide 4 — Demo Highlights
+- Recommendation API example in add-llm-integrations branch
+- Example Jupyter notebook for evaluation
+
+Speaker notes:
+Point to the demo files.
+
+Slide 5 — Architecture
+- Data ingestion → embeddings → recommender → API
+
+Speaker notes:
+Describe storage and vector DB choices.
+
+Slide 6 — Next Steps & CTA
+- Add A/B testing, online evaluation, and dashboarding
+
+Speaker notes:
+Ask for pilot stores.

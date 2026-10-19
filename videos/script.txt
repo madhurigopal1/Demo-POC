@@ -1,0 +1,56 @@
+Combined 2-minute Video Script & Shot List
+
+Total runtime: 2:00
+
+00:00-00:06 — Opening title (6s)
+- On-screen: "Demo POCs: AI Agent + Prototype Highlights"
+- Voiceover: "Introducing eight prototype POCs showcasing AI agent integrations and lightweight demos."
+
+00:06-00:20 — Code-to-Visualizer (14s)
+- Shot: Screen recording of the Code-to-Visualizer demo HTML page and a quick API call to /ask
+- On-screen caption: "Code-to-Visualizer — Interactive NLP visualizations"
+- Voiceover: "Code-to-Visualizer turns model outputs and embeddings into interactive visualizations—see t-SNE plots and similarity graphs in a simple HTML demo."
+
+00:20-00:32 — Data-Classification-Catgeorization (12s)
+- Shot: CLI or API showing label suggestions and quick export to CSV
+- Caption: "Data Classification — automated labeling"
+- Voiceover: "Automated labeling pipelines speed up dataset preparation, with agent-assisted suggestions and export to training formats."
+
+00:32-00:44 — Data-to-ML-Classifier-Models (12s)
+- Shot: Notebook showing training and evaluation metrics
+- Caption: "Rapid Model Prototyping"
+- Voiceover: "From cleaned data to a quick classifier prototype—training, evaluation, and artifact export in minutes."
+
+00:44-00:56 — Data-Mapping (12s)
+- Shot: Sample mapping script and validation run
+- Caption: "ETL Mapping & Validation"
+- Voiceover: "Automate mappings between schemas and validate transformations with demo validators."
+
+00:56-01:08 — recommendations-retail (12s)
+- Shot: Recommendation API returning product suggestions
+- Caption: "Retail Recommendations"
+- Voiceover: "Prototype recommenders that use embeddings and collaborative filtering to deliver relevant item suggestions."
+
+01:08-01:20 — Langchain-code-noAPI (12s)
+- Shot: CLI showing fallback mode and unit tests
+- Caption: "Local LangChain Demos"
+- Voiceover: "Run LangChain demos locally without external API keys using adapter layers and mock LLMs."
+
+01:20-01:32 — knowledge-management-flow (12s)
+- Shot: Demo of indexing or a search UI powered by the agent
+- Caption: "Knowledge Catalog Tools"
+- Voiceover: "Agent-assisted discovery and search for enterprise knowledge catalogs."
+
+01:32-01:44 — NeuroAI-Product1 (12s)
+- Shot: Notebook or evaluation visualization
+- Caption: "Neural Model Prototypes"
+- Voiceover: "Standardized experiments and agent tooling to accelerate research-to-product workflows."
+
+01:44-01:56 — Closing CTA (12s)
+- Shot: Collage of repo file trees and the Demo-POC repo README
+- Voiceover: "Explore the decks and assets in the Demo-POC repository, run the demos locally, and reach out to collaborate."
+
+01:56-02:00 — End title (4s)
+- On-screen: "Demo-POC by madhurigopal1 — https://github.com/madhurigopal1/Demo-POC"
+- Music fade-out
+

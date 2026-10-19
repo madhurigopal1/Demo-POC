@@ -1,0 +1,40 @@
+Title Slide: Langchain-code-noAPI
+
+Slide 1 — Title
+- Title: Langchain-code-noAPI — POC: Local LangChain Demos without API Keys
+- Subtitle: Provide agent examples that run locally without requiring external API keys
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Describe the aim: help developers experiment with LangChain flows using mock LLMs or local providers.
+
+Slide 2 — Problem
+- Developers cannot run LangChain demos without API keys or network access.
+
+Speaker notes:
+Explain friction.
+
+Slide 3 — Solution
+- Provide local fallback LLM adapters and mock responses, plus a clear .env.example and tests.
+
+Speaker notes:
+Explain how tests and CLI demos help.
+
+Slide 4 — Demo Highlights
+- CLI agent.py fallback mode
+- Unit tests and examples
+
+Speaker notes:
+Show quick run commands.
+
+Slide 5 — Architecture
+- Adapter layer that swaps real LLM calls with local or mock implementations
+
+Speaker notes:
+Describe how to extend with local LLM runtimes.
+
+Slide 6 — Next Steps & CTA
+- Add Docker Compose with local LLM runtimes, or integrate with Ollama/ggml runtimes
+
+Speaker notes:
+Solicit feedback.

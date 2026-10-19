@@ -1,0 +1,40 @@
+Title Slide: knowledge-management-flow
+
+Slide 1 — Title
+- Title: knowledge-management-flow — POC: Knowledge Catalog & Search Tools
+- Subtitle: Tools for cataloging, searching, and managing knowledge resources on GCP
+- Author: madhurigopal1
+
+Speaker notes: (20-30s)
+Explain product: a collection of utilities, sample code, and agent helpers for Google Cloud Knowledge Catalog workflows.
+
+Slide 2 — Problem
+- Organizations need a consolidated, searchable catalog of data assets.
+
+Speaker notes:
+Explain stakeholders.
+
+Slide 3 — Solution
+- Agent-assisted discovery and linking of data assets with a searchable UI.
+
+Speaker notes:
+Describe how agents can index metadata and serve queries.
+
+Slide 4 — Demo Highlights
+- FastAPI agent demo
+- Scripts to interact with GCP Knowledge Catalog
+
+Speaker notes:
+Show usage notes and branch location.
+
+Slide 5 — Architecture
+- Indexing agents → metadata store → search API and UI
+
+Speaker notes:
+Explain security recommendations for cloud creds.
+
+Slide 6 — Next Steps & CTA
+- Add RBAC, connectors, and analytics
+
+Speaker notes:
+Ask for pilot datasets.
